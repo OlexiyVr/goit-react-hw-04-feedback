@@ -1,9 +1,9 @@
 import styled from '@emotion/styled';
 
 export const Container = styled.div`
-  /* padding: 50px; */
   padding: 100px;
-  background: linear-gradient(62.93deg, #97ccf0 19.68%, #5218fa 89.55%);
+  background: rgb(250,255,0);
+  background: linear-gradient(63deg, rgba(250,255,0,0.7512254901960784) 0%, rgba(0,7,195,0.768032212885154) 86%);
   text-align: center;
   display: flex;
   justify-content: center;
@@ -12,11 +12,11 @@ export const Container = styled.div`
 `;
 
 export const Button = styled.button`
-  width: 100px;
-  height: 40px;
-  background-color: #333340;
+  font-size: 18px;
+  padding: 10px 36px;
+  background-color: #404BBF;
   color: #ffffff;
-  border-radius: 10px;
+  border-radius: 17px;
   border: none;
   outline: none;
   cursor: pointer;
@@ -25,7 +25,6 @@ export const Button = styled.button`
   &:hover,
   &:focus {
     border: 1px solid #5218fa;
-    transform: scale(1.1);
   }
 
   &:not(:last-child) {
